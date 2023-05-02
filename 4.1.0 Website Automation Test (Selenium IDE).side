@@ -1,0 +1,1483 @@
+{
+  "id": "38e3f137-36e9-4f38-ba2e-0bfbcf2a7add",
+  "version": "2.0",
+  "name": "Exploratory Testing of Main Page of Boeing Website Selenium",
+  "url": "https://www.boeing.com",
+  "tests": [{
+    "id": "aaa1afe6-5e15-4f05-8bc9-9346a9e72c2a",
+    "name": "2-Boeing",
+    "commands": [{
+      "id": "bee70f23-8918-4756-8ba1-aeb32c66f789",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd936d89-e1a0-4a11-8493-70c29b85eb4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af575450-78da-47ab-89a0-d757b73d9848",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Boeing Company Official Website",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b5ccfd5-452a-4ee8-98eb-142153395c20",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.header",
+      "targets": [
+        ["css=.header", "css:finder"],
+        ["xpath=//div[@id='1548216726565']/header/div", "xpath:idRelative"],
+        ["xpath=//header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e29837-e990-41e1-aada-75445b530cc7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Boeing",
+      "targets": [
+        ["linkText=Boeing", "linkText"],
+        ["css=#logo > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Boeing')]", "xpath:link"],
+        ["xpath=//h1[@id='logo']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[8]", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Boeing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5036570f-0192-42ce-8060-c48d25b37000",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='1548216726565']/header/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b3a2230-d131-4c1c-8862-8ccceb8846b4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.active .image",
+      "targets": [
+        ["css=.active .image", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div/div/div[3]/article/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/article/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46c01124-bb05-40f5-bff3-99e524f3f111",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(1) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(1) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Cover of Innovation Quarterly magazine.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32472d28-70e7-4794-afe7-71e25771f62e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(2) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(2) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Plane flying over fields']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1ea4010-3bbd-4d23-9a06-bce29095318d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(3) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(3) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Individuals wearing protective face masks.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[3]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd4c6fe3-8c2c-4c5e-9102-11615f3a3704",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(4) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(4) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Two people sitting at a table at a community engagement event.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[4]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05c44a48-e750-4adb-bc74-1f01cbd9588d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(5) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(5) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='A worker inspecting material.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[5]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "883fc0de-217b-463e-81a2-d80e5cd5c748",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(6) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(6) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Interior of a Boeing office.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[6]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[6]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34af55c9-9ae6-4dd0-90be-5b0fbe150619",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.active .image",
+      "targets": [
+        ["css=.active .image", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div/div/div[3]/article/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/article/div/div", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "5eddea33-1ed0-4c4d-aa9c-1cf7745257fb",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=li:nth-child(1) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(1) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Cover of Innovation Quarterly magazine.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/a/img", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "1c8e9380-29de-4507-8d8f-1f53c2f56f5c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=li:nth-child(2) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(2) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Plane flying over fields']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/a/img", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "876152b8-1f2c-4afa-af27-2ed6a850017f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=li:nth-child(3) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(3) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Individuals wearing protective face masks.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[3]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]/a/img", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "41b19b4c-28cd-47ca-8736-2f2168fe5cc1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=li:nth-child(4) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(4) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Two people sitting at a table at a community engagement event.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[4]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[4]/a/img", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "968a066b-4899-4677-8952-8b22e09f8f61",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=li:nth-child(5) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(5) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='A worker inspecting material.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[5]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[5]/a/img", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "e6e05303-8cec-48a6-a026-733b39d5664b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=li:nth-child(6) .lazy-load",
+      "targets": [
+        ["css=li:nth-child(6) .lazy-load", "css:finder"],
+        ["xpath=//img[@alt='Interior of a Boeing office.']", "xpath:img"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[6]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[6]/a/img", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "63149f3c-8a2a-43dd-9095-a5788b2274e2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.tall",
+      "targets": [
+        ["css=.tall", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer", "xpath:idRelative"],
+        ["xpath=//footer", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "7fb38218-14c9-472e-8c73-9a92d263d5c2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.header",
+      "targets": [
+        ["css=.header", "css:finder"],
+        ["xpath=//div[@id='1548216726565']/header/div", "xpath:idRelative"],
+        ["xpath=//header/div", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "6405e4f8-9058-48d1-be25-e1662e444488",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(1) .heading-md",
+      "targets": [
+        ["css=li:nth-child(1) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Innovation Quarterly')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f20c6f2-62bc-4346-93ef-e79ebd0dded7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(2) .heading-md",
+      "targets": [
+        ["css=li:nth-child(2) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[2]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sustainability')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5faf7d40-2fa8-40b4-9350-21efd134d48b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(3) .heading-md",
+      "targets": [
+        ["css=li:nth-child(3) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[3]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[3]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Global Equity, Diversity & Inclusion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abe3396a-5f34-44c2-be25-5b7d69e7f595",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(4) .heading-md",
+      "targets": [
+        ["css=li:nth-child(4) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[4]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[4]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Community Engagement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a340c6a-5866-4e34-a74d-b7fa34a528e7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(5) .heading-md",
+      "targets": [
+        ["css=li:nth-child(5) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[5]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[5]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Careers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86c15538-d377-4b4b-9cca-07ffcc24b3c7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(6) .heading-md",
+      "targets": [
+        ["css=li:nth-child(6) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[6]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[6]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72d2a745-20e2-40ed-bcdf-a9663df49570",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(1) .heading-md",
+      "targets": [
+        ["css=li:nth-child(1) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Innovation Quarterly')]", "xpath:innerText"]
+      ],
+      "value": "Innovation Quarterly"
+    }, {
+      "id": "91a6b9a4-a2cd-4ba5-a17e-438093d2b73c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(2) .heading-md",
+      "targets": [
+        ["css=li:nth-child(2) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[2]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sustainability')]", "xpath:innerText"]
+      ],
+      "value": "Sustainability"
+    }, {
+      "id": "345f5061-3ad5-49cb-ad76-3e881f41f700",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(3) .heading-md",
+      "targets": [
+        ["css=li:nth-child(3) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[3]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[3]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Global Equity, Diversity & Inclusion')]", "xpath:innerText"]
+      ],
+      "value": "Global Equity, Diversity & Inclusion"
+    }, {
+      "id": "6cdeea3a-e87e-4d0d-94b7-6fc6bc7b6dc3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(4) .heading-md",
+      "targets": [
+        ["css=li:nth-child(4) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[4]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[4]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Community Engagement')]", "xpath:innerText"]
+      ],
+      "value": "Community Engagement"
+    }, {
+      "id": "25467dd3-0f83-4116-a6a8-f91fabc05ee5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(5) .heading-md",
+      "targets": [
+        ["css=li:nth-child(5) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[5]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[5]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Careers')]", "xpath:innerText"]
+      ],
+      "value": "Careers"
+    }, {
+      "id": "79e67013-aff8-4a33-a6a8-a1a4de2c602b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(6) .heading-md",
+      "targets": [
+        ["css=li:nth-child(6) .heading-md", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[6]/a/h2", "xpath:idRelative"],
+        ["xpath=//li[6]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": "News"
+    }, {
+      "id": "66c1157b-40e0-4937-9e3a-471d5c60d2a3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(2) p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(2) p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[2]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'See how we’re defining a sustainable future of flight and bettering the world for future generations.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85ee6da1-56a8-46da-a31f-c83808e06563",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(3) > a > p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(3) > a > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[3]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'We continue to soar higher, together.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e2371be-20c3-4fb8-ab75-c971ce0cc219",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(4) > a > p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(4) > a > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[4]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[4]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Proudly investing in employees and the communities they call home.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffcec8d8-3dfb-4a95-9877-4f29bf2333c5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(5) > a > p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(5) > a > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[5]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[5]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Our innovations enable all of humanity to take flight. Join us.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c1a1d84-3970-4994-b1ff-ec33a88cb786",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.magnify",
+      "targets": [
+        ["css=.magnify", "css:finder"],
+        ["xpath=//div[@id='1548216726565']/header/div/form/div/span", "xpath:idRelative"],
+        ["xpath=//form/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67ab58e3-4e0a-4d39-8f9e-734055c085bd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Investors",
+      "targets": [
+        ["linkText=Investors", "linkText"],
+        ["css=.top li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Investors')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://investors.boeing.com/?_gl=1*1gx0v8p*_ga*MjUyODQ1ODgyLjE2ODA4OTA4ODM.*_ga_3N2PEGZ4HD*MTY4MTE1ODk3NC4zLjEuMTY4MTE2NzUzMS4wLjAuMA..*_ga_23NRXVP5NX*MTY4MTE1ODk3NC4zLjEuMTY4MTE2NzUzMS4wLjAuMA..']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Investors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89485fc0-eefa-4ddc-a5ab-c71ee768f4c1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Employee/Retiree",
+      "targets": [
+        ["linkText=Employee/Retiree", "linkText"],
+        ["css=.top li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Employee/Retiree')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/employee-and-retiree.page')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Employee/Retiree')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "305baaf6-85fa-4987-baf3-a61698e16964",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Emergency Information",
+      "targets": [
+        ["linkText=Emergency Information", "linkText"],
+        ["css=.top li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Emergency Information')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/emergency.page')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Emergency Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd970ac-a495-4d20-83f1-ccdd14e33c82",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Merchandise",
+      "targets": [
+        ["linkText=Merchandise", "linkText"],
+        ["css=.top li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Merchandise')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.boeingstore.com/']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Merchandise')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa813fe2-151b-4379-b441-0be6a1af34d5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Suppliers",
+      "targets": [
+        ["linkText=Suppliers", "linkText"],
+        ["css=.top li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Suppliers')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.boeingsuppliers.com/']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Suppliers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0182c57-6658-4ddf-84c2-77dd21f73923",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Our History",
+      "targets": [
+        ["linkText=Our History", "linkText"],
+        ["css=.top li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our History')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/history/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71e79e90-613a-486e-bd94-9143498cacef",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Commercial",
+      "targets": [
+        ["linkText=Commercial", "linkText"],
+        ["css=li:nth-child(1) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Commercial')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/commercial/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Commercial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f703c59-e89f-4a64-ba0c-a350b983ae18",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Defense",
+      "targets": [
+        ["linkText=Defense", "linkText"],
+        ["css=li:nth-child(2) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Defense')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/defense/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Defense')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5341ee05-5548-4db5-b313-1be554f4a8ce",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Space",
+      "targets": [
+        ["linkText=Space", "linkText"],
+        ["css=li:nth-child(3) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Space')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/space/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Space')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2075020d-4ec2-4a9d-a583-1ab9fdd20880",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Services",
+      "targets": [
+        ["linkText=Services", "linkText"],
+        ["css=li:nth-child(4) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Services')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/index.page')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9489620b-54a2-45d5-8eb3-dc706e5f0e2f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Innovation",
+      "targets": [
+        ["linkText=Innovation", "linkText"],
+        ["css=li:nth-child(6) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Innovation')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/innovation/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Innovation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef9b2285-d20e-4d4e-86d0-a09ce366b8b0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Global",
+      "targets": [
+        ["linkText=Global", "linkText"],
+        ["css=li:nth-child(7) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Global')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav[2]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/global/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Global')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccc31626-3e8e-4079-826b-fdc05cbed761",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Sustainability (ESG)",
+      "targets": [
+        ["linkText=Sustainability (ESG)", "linkText"],
+        ["css=li:nth-child(8) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Sustainability (ESG)')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav[2]/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/principles/sustainability')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sustainability (ESG)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04a70705-3c10-4338-bd8e-e13691d22220",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Careers",
+      "targets": [
+        ["linkText=Careers", "linkText"],
+        ["css=li:nth-child(9) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav[2]/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/careers/')])[2]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Careers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "609b4343-eaf3-41ff-a9f7-47388a30644d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Our Company",
+      "targets": [
+        ["linkText=Our Company", "linkText"],
+        ["css=li:nth-child(10) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Company')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav[2]/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/company/')])[3]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Company')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fa9edc3-8126-42ff-b942-86287ae4a50d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(1) > a > p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(1) > a > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Go inside the future of aerospace with the people who make it happen.')]", "xpath:innerText"]
+      ],
+      "value": "Go inside the future of aerospace with the people who make it happen."
+    }, {
+      "id": "a609c42a-9f2d-4fa5-bfe8-4564d3504718",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(2) p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(2) p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[2]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'See how we’re defining a sustainable future of flight and bettering the world for future generations.')]", "xpath:innerText"]
+      ],
+      "value": "See how we’re defining a sustainable future of flight and bettering the world for future generations."
+    }, {
+      "id": "09d8e21a-3e0e-4f1b-9120-cb0afa9c812b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(3) > a > p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(3) > a > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[3]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'We continue to soar higher, together.')]", "xpath:innerText"]
+      ],
+      "value": "We continue to soar higher, together."
+    }, {
+      "id": "ede5e5ca-d592-497e-a6cb-7c09dbedebf4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(4) > a > p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(4) > a > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[4]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[4]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Proudly investing in employees and the communities they call home.')]", "xpath:innerText"]
+      ],
+      "value": "Proudly investing in employees and the communities they call home."
+    }, {
+      "id": "f0dba166-5ba1-4151-8951-666291d0a508",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(5) > a > p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(5) > a > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[5]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[5]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Our innovations enable all of humanity to take flight. Join us.')]", "xpath:innerText"]
+      ],
+      "value": "Our innovations enable all of humanity to take flight. Join us."
+    }, {
+      "id": "428b2df9-a815-493e-86ce-41b4fac60f6d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(6) > a > p:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(6) > a > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='1669398285827']/section/div/div[2]/div/ul/li[6]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[6]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Read the latest about how we innovate and operate to make the world better.')]", "xpath:innerText"]
+      ],
+      "value": "Read the latest about how we innovate and operate to make the world better."
+    }, {
+      "id": "5294170f-17eb-44c8-94d4-e126935e13ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .image",
+      "targets": [
+        ["css=.active .image", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div/div/div[3]/article/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/article/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c87933d1-64b9-4d79-bfaf-c32332dcdd48",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.owl-next",
+      "targets": [
+        ["css=.owl-next", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab4c37ca-2b57-4739-8ff4-74f76ae4a9de",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.owl-next",
+      "targets": [
+        ["css=.owl-next", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "48c452eb-19aa-4f1c-b6e7-0b92cfad31a3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.owl-prev",
+      "targets": [
+        ["css=.owl-prev", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac5f979e-32bf-4f41-bf04-3f2d81d54325",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.owl-prev",
+      "targets": [
+        ["css=.owl-prev", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "cdf02681-c366-4d75-8e3a-62e1d5fd5c7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-next",
+      "targets": [
+        ["css=.owl-next", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f03e7e87-ddda-4006-bf3f-57386388fb11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-next",
+      "targets": [
+        ["css=.owl-next", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe8a0e11-3338-4ee7-821e-bffdd0b33063",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-next",
+      "targets": [
+        ["css=.owl-next", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e342167-7dda-4275-84b8-dc19dd62f572",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-next",
+      "targets": [
+        ["css=.owl-next", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56dd9776-00d2-4efe-888c-3e78a64a977c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-next",
+      "targets": [
+        ["css=.owl-next", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60005024-d241-47cf-9dc2-42af6c0d41d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-prev",
+      "targets": [
+        ["css=.owl-prev", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "111ea68a-c8ed-4a44-bbab-45bf51d79e76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-prev",
+      "targets": [
+        ["css=.owl-prev", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d48a4be-2045-4293-9302-0ba9c26d8957",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-prev",
+      "targets": [
+        ["css=.owl-prev", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a73def6c-1f80-434d-a38d-5dfe362ae0e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-prev",
+      "targets": [
+        ["css=.owl-prev", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d05e31d0-6f06-4aaa-91b8-8e880feee3c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-prev",
+      "targets": [
+        ["css=.owl-prev", "css:finder"],
+        ["xpath=//section[@id='marquee']/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0b50fdc-cbeb-4bd4-b1f7-9bdbb294af23",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.tall",
+      "targets": [
+        ["css=.tall", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer", "xpath:idRelative"],
+        ["xpath=//footer", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5550cfc4-a088-4662-86bf-4bc4b2f329b3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.social",
+      "targets": [
+        ["css=.social", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer/div/div/div[4]/ul", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div[4]/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c950092-f8e0-49dc-a6f9-8d21a00edda1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(1)",
+      "targets": [
+        ["css=.at300b:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://instagram.com/boeing']", "xpath:href"],
+        ["xpath=//ul/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "839ea962-9781-4f4d-876b-f6156a3a599e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(2)",
+      "targets": [
+        ["css=.at300b:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.facebook.com/boeing']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0188a23-01db-4b05-9302-68df6332c032",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(3)",
+      "targets": [
+        ["css=.at300b:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=Boeing']", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb94e44-f93b-4abe-8874-6534bf0a5580",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(4)",
+      "targets": [
+        ["css=.at300b:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.youtube.com/user/boeing?sub_confirmation=1']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "492826ff-3e68-41c6-b04a-70e48a1775da",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(5)",
+      "targets": [
+        ["css=.at300b:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.linkedin.com/company/boeing']", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4a5ec2f-71dc-439d-a963-845908c8dfb9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(3) .label",
+      "targets": [
+        ["css=li:nth-child(3) .label", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer/div/div/div[4]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'All Social Channels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "594efd47-f779-4021-a323-20352272ffa1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(1) > .addthis_follow_label",
+      "targets": [
+        ["css=.at300b:nth-child(1) > .addthis_follow_label", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e57f247c-ea9d-44f3-ab8c-1f7d1efc2b26",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(2) > .addthis_follow_label",
+      "targets": [
+        ["css=.at300b:nth-child(2) > .addthis_follow_label", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//a[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3dc9c0-d8c0-4389-9b7e-677194b7e1ab",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(3) > .addthis_follow_label",
+      "targets": [
+        ["css=.at300b:nth-child(3) > .addthis_follow_label", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//a[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b076eecb-fba2-45ef-a039-ae52440b6464",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(4) > .addthis_follow_label",
+      "targets": [
+        ["css=.at300b:nth-child(4) > .addthis_follow_label", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a[4]/span[2]", "xpath:idRelative"],
+        ["xpath=//a[4]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9657c71-ad07-4d73-9790-be5c60491eb5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at300b:nth-child(5) > .addthis_follow_label",
+      "targets": [
+        ["css=.at300b:nth-child(5) > .addthis_follow_label", "css:finder"],
+        ["xpath=//div[@id='atftbx2']/div/a[5]/span[2]", "xpath:idRelative"],
+        ["xpath=//a[5]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5b1abe5-bed2-410c-85da-26d60b7c276b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=li:nth-child(3) .label",
+      "targets": [
+        ["css=li:nth-child(3) .label", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer/div/div/div[4]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'All Social Channels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6be45d00-c217-4e4f-ad12-8372f8807110",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li:nth-child(3) .label",
+      "targets": [
+        ["css=li:nth-child(3) .label", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer/div/div/div[4]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'All Social Channels')]", "xpath:innerText"]
+      ],
+      "value": "All Social Channels"
+    }, {
+      "id": "f1c696c9-0dfa-4ad7-b05b-12a592a7a6f4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at-icon-instagram",
+      "targets": [
+        ["css=.at-icon-instagram", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4946219-12a4-4180-bdb6-5682b609b6a4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at-icon-facebook path",
+      "targets": [
+        ["css=.at-icon-facebook path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6299634-b616-42a2-9737-90f6a340e129",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at-icon-twitter path",
+      "targets": [
+        ["css=.at-icon-twitter path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4187e63-c1a3-4c02-a9a5-c1965b042e2d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at-icon-youtube path",
+      "targets": [
+        ["css=.at-icon-youtube path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "11cdb506-0a82-423c-bd88-2d1c68c46afd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.at-icon-linkedin",
+      "targets": [
+        ["css=.at-icon-linkedin", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca3e3c40-d632-476c-8794-824f8db6311e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.utility",
+      "targets": [
+        ["css=.utility", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer/div/div/div/ul", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e15a970f-5a7c-4a8f-898b-02c677ec944b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.categories",
+      "targets": [
+        ["css=.categories", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer/div/div/div[2]/ul", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div[2]/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5466849-dda0-4cc8-8d87-7ebc8d784245",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.additional",
+      "targets": [
+        ["css=.additional", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer/div/div/div[3]/ul", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div[3]/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cdf762b-ac79-40c7-a6ad-92e6f3cf199d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.updates",
+      "targets": [
+        ["css=.updates", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer/div/div/div[5]/div/ul", "xpath:idRelative"],
+        ["xpath=//div[5]/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aed0b901-0c58-4013-93be-768efa1124c5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.row:nth-child(2) > .list-with-title",
+      "targets": [
+        ["css=.row:nth-child(2) > .list-with-title", "css:finder"],
+        ["xpath=//div[@id='1548216726566']/footer/div/div/div[5]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1d35ce5-0a7a-4d36-875e-d72b90982ea1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=back-to-top",
+      "targets": [
+        ["id=back-to-top", "id"],
+        ["linkText=Back to Top", "linkText"],
+        ["css=#back-to-top", "css:finder"],
+        ["xpath=//a[@id='back-to-top']", "xpath:attributes"],
+        ["xpath=//div[@id='1548216726566']/footer/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#top')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to Top')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc664564-aa78-476b-8784-7dcb9fa6cdde",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.arrow-up-small-white",
+      "targets": [
+        ["css=.arrow-up-small-white", "css:finder"],
+        ["xpath=//a[@id='back-to-top']/span[2]/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10d27a81-9038-4569-9838-67b02eac04ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=.top li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://boeing.mediaroom.com/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab5dcad7-e242-4155-ac1a-642ea5293ba7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Investors",
+      "targets": [
+        ["linkText=Investors", "linkText"],
+        ["css=.top li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Investors')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://investors.boeing.com/']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Investors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1334bd19-37f0-45ea-bcba-57de2b050a4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Employee/Retiree",
+      "targets": [
+        ["linkText=Employee/Retiree", "linkText"],
+        ["css=.top li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Employee/Retiree')]", "xpath:link"],
+        ["xpath=//div[@id='1548216726565']/header/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/employee-and-retiree.page')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Employee/Retiree')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b5b8700-c938-4375-97b2-031bf45590dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Merchandise",
+      "targets": [
+        ["linkText=Merchandise", "linkText"],
+        ["css=.top li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Merchandise')]", "xpath:link"],
+        ["xpath=//div[@id='1583428583640']/header/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.boeingstore.com/']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Merchandise')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ba5585f-5e67-4596-85c2-447cb2dd5bbe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Suppliers",
+      "targets": [
+        ["linkText=Suppliers", "linkText"],
+        ["css=.top li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Suppliers')]", "xpath:link"],
+        ["xpath=//div[@id='1583428583640']/header/div/nav/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.boeingsuppliers.com/']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Suppliers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bb605d2-ccdb-484c-972f-7f538de5a35d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our History",
+      "targets": [
+        ["linkText=Our History", "linkText"],
+        ["css=.top li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our History')]", "xpath:link"],
+        ["xpath=//div[@id='1583428583640']/header/div/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/history/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1da56b44-76ea-4f5a-be09-2b03dfc744fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Commercial",
+      "targets": [
+        ["linkText=Commercial", "linkText"],
+        ["css=li:nth-child(1) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Commercial')]", "xpath:link"],
+        ["xpath=//div[@id='1424490814800']/header/div/nav[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/commercial/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Commercial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c141f78-9610-4e86-a42e-f06e70b9ecbe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Defense",
+      "targets": [
+        ["linkText=Defense", "linkText"],
+        ["css=li:nth-child(2) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Defense')]", "xpath:link"],
+        ["xpath=//div[@id='1421077361999']/header/div/nav[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/defense/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Defense')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8db7546-1bf7-4d7e-996c-7f293b3e86cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Space",
+      "targets": [
+        ["linkText=Space", "linkText"],
+        ["css=li:nth-child(3) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Space')]", "xpath:link"],
+        ["xpath=//div[@id='1421077360243']/header/div/nav[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/space/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Space')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dcb3053-78c1-4d98-ad1b-821b7653ace2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Services",
+      "targets": [
+        ["linkText=Services", "linkText"],
+        ["css=li:nth-child(4) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Services')]", "xpath:link"],
+        ["xpath=//div[@id='1421077356621']/header/div/nav[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/index.page')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8774b592-d7f7-4ef7-b241-03da18c84143",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Innovation",
+      "targets": [
+        ["linkText=Innovation", "linkText"],
+        ["css=li:nth-child(6) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Innovation')]", "xpath:link"],
+        ["xpath=//div[@id='1602282669935']/header/div/nav[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/innovation/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Innovation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cf4158f-930a-4008-96ee-fac039353386",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Global",
+      "targets": [
+        ["linkText=Global", "linkText"],
+        ["css=li:nth-child(7) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Global')]", "xpath:link"],
+        ["xpath=//div[@id='1424803167182']/header/div/nav[2]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/global/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Global')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcff382d-ed38-4e5c-902c-ca950f6c752e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Careers",
+      "targets": [
+        ["linkText=Careers", "linkText"],
+        ["css=li:nth-child(9) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers')]", "xpath:link"],
+        ["xpath=//div[@id='1646160920075']/header/div/nav[2]/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/careers/')])[2]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Careers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecaae6b2-010d-41ef-9c63-bfae19d3513b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo__img-wrap > img",
+      "targets": [
+        ["css=.logo__img-wrap > img", "css:finder"],
+        ["xpath=//img[@alt='Boeing']", "xpath:img"],
+        ["xpath=//div[@id='page']/header/div/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59a8d6cf-8794-4e8e-8ee2-767f79512eab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Company",
+      "targets": [
+        ["linkText=Our Company", "linkText"],
+        ["css=li:nth-child(10) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Company')]", "xpath:link"],
+        ["xpath=//div[@id='1646160920075']/header/div/nav[2]/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/company/')])[3]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Company')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55041215-b1b1-4779-9944-2a124216140b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Our Company",
+      "targets": [
+        ["linkText=Our Company", "linkText"],
+        ["css=li:nth-child(10) > .meganavlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Company')]", "xpath:link"],
+        ["xpath=//div[@id='1423232152256']/header/div/nav[2]/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/company/')])[3]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Company')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11b0687e-4d4b-4700-928d-6913b2d1d10b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1425965d-8e92-4291-9ee0-5b1d8d37fcf6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5aa5b8a2-160d-431b-b60b-c38701fdb02c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.boeing.com/"],
+  "plugins": []
+}
