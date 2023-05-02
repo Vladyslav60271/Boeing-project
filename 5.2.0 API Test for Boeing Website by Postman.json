@@ -1,0 +1,413 @@
+{
+	"id": "2b695d27-1087-41a1-8957-abd2d20bef6d",
+	"name": "Final Project Boeing Website",
+	"timestamp": "2023-04-28T04:32:46.240Z",
+	"collection_id": "26337328-79ab5503-b619-4e97-9168-7afd41af872d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 36,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-28T04:32:43.327Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "35c0617c-4f2c-4f65-a8cb-2f9364e4a8d2",
+			"name": "Add to Cart Boeing Women's Silver Rotating Airplane Watch",
+			"url": "https://www.boeingstore.com/cart/add.js",
+			"time": 458,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 5000B": true,
+				"Body matches string": true,
+				"Headers are correct": true,
+				"Responce keys and value are correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 5000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Headers are correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Responce keys and value are correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				458
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 5000B": true,
+					"Body matches string": true,
+					"Headers are correct": true,
+					"Responce keys and value are correct": true
+				}
+			]
+		},
+		{
+			"id": "e0812b3e-20d5-44a2-b8d1-07107f83d546",
+			"name": "Cart Checking after addition Add to Cart Boeing Women's Silver Rotating Airplane Watch",
+			"url": "https://www.boeingstore.com/cart.js",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 5000B": true,
+				"Body matches string": true,
+				"Headers are correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 5000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Headers are correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				122
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 5000B": true,
+					"Body matches string": true,
+					"Headers are correct": true
+				}
+			]
+		},
+		{
+			"id": "e27ca66e-2b5d-48ee-aefd-21a56a26ec9d",
+			"name": "Add to Cart Boeing Rosie Lunchbox",
+			"url": "https://www.boeingstore.com/cart/add.js",
+			"time": 270,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 2000B": true,
+				"Body matches string": true,
+				"Headers are correct": true,
+				"Responce keys and value are correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 2000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Headers are correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Responce keys and value are correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				270
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 2000B": true,
+					"Body matches string": true,
+					"Headers are correct": true,
+					"Responce keys and value are correct": true
+				}
+			]
+		},
+		{
+			"id": "c97d1622-114b-4037-ab76-c6a70c893874",
+			"name": "Check Cart after addition Boeing Rosie Lunchbox",
+			"url": "https://www.boeingstore.com/cart.js",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 2000B": true,
+				"Body matches string": true,
+				"Headers are correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 2000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Headers are correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 2000B": true,
+					"Body matches string": true,
+					"Headers are correct": true
+				}
+			]
+		},
+		{
+			"id": "23de5fc8-e24d-4668-a145-f9a494204d15",
+			"name": "Removing of Some Item",
+			"url": "https://www.boeingstore.com/cart/change.js",
+			"time": 308,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 2000B": true,
+				"Body matches string": true,
+				"Headers are correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 2000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Headers are correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				308
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 2000B": true,
+					"Body matches string": true,
+					"Headers are correct": true
+				}
+			]
+		},
+		{
+			"id": "dc28362d-23a2-44a3-9ac7-0592ee75dd09",
+			"name": "Changed Cart Checking after removing some item",
+			"url": "https://www.boeingstore.com/cart.js",
+			"time": 115,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 5000B": true,
+				"Body matches string": true,
+				"Headers are correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 5000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Headers are correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				115
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 5000B": true,
+					"Body matches string": true,
+					"Headers are correct": true
+				}
+			]
+		},
+		{
+			"id": "42226c14-9139-4aaf-892b-2a9996abdb1b",
+			"name": "Start of Checkout",
+			"url": "https://notify.bugsnag.com/",
+			"time": 52,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 1000B": true,
+				"Headers are correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 1000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Headers are correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				52
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 1000B": true,
+					"Headers are correct": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1458,
+	"collection": {
+		"requests": [
+			{
+				"id": "35c0617c-4f2c-4f65-a8cb-2f9364e4a8d2",
+				"method": "POST"
+			},
+			{
+				"id": "e0812b3e-20d5-44a2-b8d1-07107f83d546",
+				"method": "GET"
+			},
+			{
+				"id": "e27ca66e-2b5d-48ee-aefd-21a56a26ec9d",
+				"method": "POST"
+			},
+			{
+				"id": "c97d1622-114b-4037-ab76-c6a70c893874",
+				"method": "GET"
+			},
+			{
+				"id": "23de5fc8-e24d-4668-a145-f9a494204d15",
+				"method": "POST"
+			},
+			{
+				"id": "dc28362d-23a2-44a3-9ac7-0592ee75dd09",
+				"method": "GET"
+			},
+			{
+				"id": "42226c14-9139-4aaf-892b-2a9996abdb1b",
+				"method": "POST"
+			}
+		]
+	}
+}
